@@ -6,7 +6,7 @@ const Countdown = () => {
     <div className="w-full">
       <DisplayCountdown
         name="अजा-अजि"
-        image="/aja-aji.jpg"
+        image="https://raw.githubusercontent.com/anoojshrestha/countdown/main/public/aja-aji.jpg"
         dateTime="2024-07-22"
         tracking={[
           {
@@ -21,7 +21,7 @@ const Countdown = () => {
       />
       <DisplayCountdown
         name="Ashis"
-        image="/ashis.jpg"
+        image="https://raw.githubusercontent.com/anoojshrestha/countdown/main/public/ashis.jpg"
         dateTime="2024-08-22"
         tracking={[
           {
