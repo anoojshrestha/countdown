@@ -7,15 +7,15 @@ const Countdown = () => {
       <DisplayCountdown
         name="अजा-अजि"
         image="https://raw.githubusercontent.com/anoojshrestha/countdown/main/public/aja-aji.jpg"
-        dateTime="2024-07-22"
+        dateTime="2024-08-08"
         tracking={[
           {
             name: "Kathmandu to Istanbul (TK 0724)",
-            link: "https://www.turkishairlines.com/en-de/flights/flight-status/?t=1&flight=727&date=220724",
+            link: "https://www.turkishairlines.com/en-de/flights/flight-status/?t=1&flight=727&date=080824",
           },
           {
             name: "Istanbul to Nuremberg (TK 1505)",
-            link: "https://www.turkishairlines.com/en-de/flights/flight-status/?t=1&flight=1505&date=220724",
+            link: "https://www.turkishairlines.com/en-de/flights/flight-status/?t=1&flight=1505&date=080824",
           },
         ]}
       />
