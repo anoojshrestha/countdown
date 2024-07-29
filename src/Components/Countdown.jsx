@@ -10,7 +10,7 @@ const Countdown = () => {
         dateTime="2024-08-08"
         tracking={[
           {
-            name: "Kathmandu to Istanbul (TK 0724)",
+            name: "Kathmandu to Istanbul (TK 0727)",
             link: "https://www.turkishairlines.com/en-de/flights/flight-status/?t=1&flight=727&date=080824",
           },
           {
