@@ -13,7 +13,7 @@ const DisplayCountdown = ({ name, image, dateTime, tracking }) => {
     const currentDateTime = new Date().toLocaleDateString("en-CA");
     const daysDiff = Math.round(
       (parseDate(flightDate) - parseDate(currentDateTime)) /
-        (1000 * 60 * 60 * 24)
+        (1000 * 60 * 60 * 24),
     );
     setRemainingDays(daysDiff);
   };
@@ -46,10 +46,10 @@ const DisplayCountdown = ({ name, image, dateTime, tracking }) => {
                     (remainingDays > 30
                       ? "text-gray-900"
                       : remainingDays > 14
-                      ? "text-blue-500"
-                      : remainingDays > 7
-                      ? `text-yellow-500`
-                      : "text-red-600")
+                        ? "text-blue-500"
+                        : remainingDays > 7
+                          ? `text-yellow-500`
+                          : "text-red-600")
                   }
                 >
                   {remainingDays}
@@ -59,7 +59,7 @@ const DisplayCountdown = ({ name, image, dateTime, tracking }) => {
               </div>
               <div>
                 <input
-                  className="w-32 border-b rounded-md px-2"
+                  className="w-42 border-b rounded-md px-2"
                   type="date"
                   defaultValue={dateTime}
                   onChange={(e) => handleDateChange(e.target.value)}
